@@ -1,77 +1,88 @@
-# 🌸 Vietnamese Women's Day Interactive Greeting Card (20/10)
+<div align="center">
 
-An aesthetic, interactive web-based greeting card built to celebrate **Vietnamese Women's Day (October 20th)**. It features dynamic letter-decoding animations, floating heart particle effects, smooth glassmorphism design, custom cursor tracking, and background music integration.
+# 🌸 20/10 Greeting Card
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/138c1d14-2078-405d-8512-1a38e95634e1" alt="Preview" width="100%" />
-</p>
+**A tiny interactive card for Vietnamese Women's Day.**
+Click, watch the message decode itself, and let the hearts fly.
 
----
+[![Live Demo](https://img.shields.io/badge/Live-Demo-ff69b4?style=for-the-badge)](https://meow.spiriz.id.vn)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
+![No Build](https://img.shields.io/badge/Build-None-success?style=for-the-badge)
 
-## ✨ Features
+<img src="https://github.com/user-attachments/assets/138c1d14-2078-405d-8512-1a38e95634e1" alt="Preview" width="100%" />
 
-- 💖 **Letter Decoding Effect:** Dynamic scramble and fly-in text animations that decode the secret message upon clicking.
-- 🎨 **Glassmorphism UI:** Modern, responsive card layout designed with CSS backdrop filters and soft glowing effects.
-- 🐾 **Interactive Particle System:** Floating hearts, star twinkling, explosion bursts, and a custom mouse trail cursor.
-- 🎵 **Background Music:** Seamless audio playback integration with low ambient volume.
-- 📊 **Visit Counter:** Integrated visitor tracking powered by `CounterAPI`.
-- 📱 **Fully Responsive:** Optimized for both mobile devices and desktop screens.
+</div>
 
 ---
 
-## 🛠️ Built With
+## ✨ Highlights
 
-- **HTML5 & Pure CSS3** (CSS Grid, Flexbox, Keyframes, Animations, Glassmorphism)
-- **Vanilla JavaScript** (ES6+, `requestAnimationFrame`, Canvas/DOM animations)
-- **Google Fonts** (*Playfair Display*, *Dancing Script*, *Be Vietnam Pro*)
-- **CounterAPI** (for real-time visit tracking)
+| | Feature | Description |
+|---|---|---|
+| 💌 | **Letter decoding** | Scrambled letters fly in and resolve into your message on click |
+| 🪟 | **Glassmorphism** | Frosted-glass card with soft glow and backdrop blur |
+| 💖 | **Particles** | Floating hearts, twinkling stars, click bursts and a cursor trail |
+| 🎵 | **Ambient music** | Background track at a gentle, low volume |
+| 📊 | **Visit counter** | Live visitor count via CounterAPI |
+| 📱 | **Responsive** | Looks good on phones, tablets and desktops |
 
----
+## 🚀 Quick Start
 
-## 🚀 Getting Started
-
-No build tools or external installation required!
-
-1. **Clone the repository:**
+No build tools, no dependencies.
 
 ```bash
-   git clone https://github.com/spirizdev/vietnamese-womens-day-greeting.git
-   cd vietnamese-womens-day-greeting
+git clone https://github.com/spirizdev/2010-card.git
+cd 2010-card
 ```
 
-2. **Run locally:**
-   - Open `index.html` directly in any modern web browser.
-   - Alternatively, serve it using the VS Code **Live Server** extension.
+Then open `index.html` in your browser, or use the **Live Server** extension in VS Code.
 
----
+## 🎀 Make It Yours
 
-## ⚙️ Customization
-
-To customize the message, recipient name, or wishes, edit the `CFG` object inside `index.html`:
+Everything personal lives in one place: the `CFG` object inside `index.html`.
 
 ```javascript
 const CFG = {
-  l1: "CHÚC MỪNG 20/10",
-  l2: "BÉ MÈO CUTE 🐱",
-  name: "Bé Mèo Cute 🐾",
+  l1: "CHÚC MỪNG 20/10",            // top line of the decoded title
+  l2: "BÉ MÈO CUTE 🐱",             // second line of the title
+  name: "Bé Mèo Cute 🐾",           // recipient name
   intro: "Nhân ngày 20/10, chúc cậu luôn rạng rỡ, xinh tươi...",
   wishes: [
+    // [emoji, title, description]
     ["🌸", "Rạng rỡ xinh tươi", "Lúc nào cũng siêu cute và yêu đời."],
-    // Add or modify wishes here
   ],
   quote: "Cảm ơn cậu vì đã luôn mang năng lượng tích cực...",
   sign: "— Một người bạn luôn nghĩ đến cậu 🌿",
 };
 ```
 
----
+> 💡 Add as many entries to `wishes` as you like, one per card.
+
+## 🌐 Live Demo
+
+See it live at **[meow.spiriz.id.vn](https://meow.spiriz.id.vn)** 🐱
+
+Want your own? Fork the repo, edit `CFG` in `index.html`, then deploy to any static host (GitHub Pages, Vercel, Netlify, Cloudflare Pages...).
+
+Send the link to someone special. 💝
+
+## 🧰 Tech Stack
+
+- **HTML5 + CSS3**: Grid, Flexbox, keyframes, backdrop-filter
+- **Vanilla JavaScript (ES6+)**: `requestAnimationFrame`, DOM/Canvas animation
+- **Google Fonts**: Playfair Display, Dancing Script, Be Vietnam Pro
+- **CounterAPI**: visit tracking
 
 ## 📜 License
 
-This project is open-source and available under the [MIT License](LICENSE).
-
----
+Released under the [MIT License](LICENSE). Free to use, remix and share.
 
 ## 💌 Credits
 
-Made with ❤️ by [@spiriz](https://ayo.so/aowvn).
+Made with ❤️ by [@spiriz](https://ayo.so/aowvn)
+
+<div align="center">
+
+⭐ If you like this card, leave a star!
+
+</div>
